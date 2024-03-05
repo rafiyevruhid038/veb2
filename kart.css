@@ -1,0 +1,104 @@
+@import url('https://fonts.googleapis.com/css2?family=Courier+Prime:ital,wght@0,400;0,700;1,400;1,700&family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+.cards{
+    border: 2px solid black;
+    display: flex;
+    width: 700px;
+    height: 450px;
+    flex-wrap: wrap;
+}
+.purple-card{
+    background-color: rgb(138, 43, 226);
+    border-radius: 5px;
+    height: 200px;
+    width: 315px;
+    margin: 10px;
+    padding: 0 0 0 15px;
+    font-family: "Courier Prime", monospace;
+    color: white;
+}
+.chip{
+    margin-left: -5px;
+    padding-top: 35px;
+    width: 50px;
+    height: 50px;
+    margin-bottom: 0;
+}
+.code{
+    font-size: 25px;
+    font-weight: 200;
+    margin-bottom: 15px;
+    margin-top: -30px;
+}
+.name{
+    font-size: 20px;
+    font-weight: 700;
+    font-family: monospace;
+    padding-bottom: 25px;
+    margin-top: -23px;
+}
+.valid-thru{
+    font-family: tahoma,sans-serif;
+    font-size: 9px;
+    margin-top: -10px;
+    padding: 0;
+}
+.date{
+    font-family: Tahoma, sans-serif;
+    margin-top: 0;
+}
+.black-card{
+    background-color: black;
+    border-radius: 5px;
+    height: 200px;
+    width: 315px;
+    margin: 10px;
+    padding: 0 0 0 15px;
+    font-family: "Courier Prime", monospace;
+    color: white;
+}
+.green-card{
+    background-color: rgb(6, 88, 32);
+    border-radius: 5px;
+    height: 200px;
+    width: 315px;
+    margin: 10px;
+    padding: 0 0 0 15px;
+    font-family: "Courier Prime", monospace;
+    color: white;
+}
+.blue-card{
+    background-color: rgb(12, 5, 123);
+    border-radius: 5px;
+    height: 200px;
+    width: 315px;
+    margin: 10px;
+    padding: 0 0 0 15px;
+    font-family: "Courier Prime", monospace;
+    color: white;
+}
+.visa ,.master{
+    display: block;
+    height: 50px;
+    width: 60px;
+    margin-left: 230px;
+    margin-top: -65px;
+
+}
+.tinkoff{
+    width: 50px;
+    margin-left: 120px;
+    margin-bottom: 15px;
+}
+.btb{
+    width: 150px;
+    height: 60px;
+    margin-left: 100px;
+    margin-bottom: 14px;
+
+}
+.sberbank{
+    margin-left: 50px;
+    width: 170px;
+    height: 50px;
+    opacity: 0.2;
+}
